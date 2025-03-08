@@ -1,4 +1,22 @@
-# Packages: Nodemon for automatically restart node server.
+# Packages: Nodemon for automatically restart node server. Run nodemon in ubuntu locally use this cammand 
+
+```
+npm i nodemon --save-dev
+
+```
+<p>Add this on package.json</p>
+
+```js
+"scripts": {
+  "start": "nodemon index.js"
+}
+```
+
+<p>For run server use:</p>
+
+```
+npm start
+```
 
 # Express JS :
 

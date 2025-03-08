@@ -15,3 +15,8 @@ app.listen(port,(req,res)=>{
 app.get("/",(req,res)=>{
     res.render("home.ejs") // it render html 
 })
+
+app.get("/rolldice/roll",(req,res)=>{
+    let value=Math.floor(Math.random() * 6)+1
+    res.render("rollDice.ejs",{num:value})
+})
