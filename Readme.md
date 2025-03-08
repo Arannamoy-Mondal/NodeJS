@@ -43,5 +43,5 @@ app.get("*",(req,res)=>{ // for all route if not exist
 })
 ```
 
-# EJS (Embedded JS):
+# EJS (Embedded JS) Template:
 
